@@ -17,10 +17,18 @@
     font-size: 25px;
   }
 
-#lebron_james {
-    padding: 200px 0px 0px 0px;
+#LeBron_James {
+    padding: 100px 0px 0px 0px;
 }
 
 #navbar h2 {
     font-size: 50px;
+}
+
+#navbar header {
+    font-size: 50px;
+}
+
+@media screen (min-width: 400px){
+    background-color: yellow;
 }
