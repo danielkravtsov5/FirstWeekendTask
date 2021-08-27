@@ -1,34 +1,23 @@
-#navbar {
-    overflow: hidden;
-    background-color: rgb(99, 182, 221);
-    position: fixed;
-    top: 0;
-    width: 100%;
-    text-align: center;
-  }
 
-  #navbar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 25px;
-  }
-
-#LeBron_James {
-    padding: 100px 0px 0px 0px;
+#navbar  {
+  background-color: cadetblue;
+  float: left;
+  position: fixed;
+  width: 130px;
+  z-index: 1;
+  top: 20px;
+  left: 10px;
+  background: rgb(168, 54, 54);
+  overflow-x: hidden;
+  padding: 0px 0px 100% 0px;
 }
 
-#navbar h2 {
-    font-size: 50px;
+.main-section {
+  padding: 0px 0px 0px 140px;
 }
 
-#navbar header {
-    font-size: 50px;
+.nav-link {
+  padding: 10px 0px 0px 0px;
 }
 
-@media screen (min-width: 400px){
-    background-color: yellow;
-}
+@media 
