@@ -1,23 +1,70 @@
+body {
+  background-image: url(https://www.outsideonline.com/wp-content/uploads/2021/01/13/andrew-steele-britain_h-960x540-c-default.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
+#navbar a {
+  margin: 20% 0px 20% 0px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  display: grid;
+  border-top: 1px;
+  border-left: 0px;
+  border-right: 0px;
+  border-style:solid;
+}
+
+
+.main-section {
+  padding: 20px 0px 20px 140px;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(253, 232, 109);
+}
+
+#navbar header {
+  font-size: 35px;
+}
+
+#header {
+  font-size: 40px;
+  font-family:fantasy;
+}
+
+ul {
+  display: table;
+  margin: 0 auto;
+}
+
+@media screen and (max-width:600px) {  
 #navbar  {
   background-color: cadetblue;
   float: left;
   position: fixed;
   width: 130px;
   z-index: 1;
-  top: 20px;
-  left: 10px;
-  background: rgb(168, 54, 54);
+  top: 0px;
+  left: 0px;
   overflow-x: hidden;
-  padding: 0px 0px 100% 0px;
-}
+  padding-bottom: 100%;
+}}
 
-.main-section {
-  padding: 0px 0px 0px 140px;
-}
-
-.nav-link {
-  padding: 10px 0px 0px 0px;
-}
-
-@media 
+@media screen and (min-width:600px) {  
+#navbar  {
+  background-color: rgb(111, 134, 125);
+  float: left;
+  position: fixed;
+  width: 130px;
+  z-index: 1;
+  top: 0px;
+  left: 0px;
+  overflow-x: hidden;
+  padding-bottom: 100%;
+}}
